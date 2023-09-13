@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border box;
+}
+
+body {
+  font-family: "open sans", sans-serif;
+}
+
+.card-container {
+  position: relative;
+  text-align: center;
+  color: black;
+  margin: 0;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 10px;
+  left: 16px;
+  color: white;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+/* Top right text */
+.mobile-menu-btn {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+body nav > button > img {
+  height: 35px;
+}
+body nav > button {
+  border: none;
+  background: none;
+}
+
+/* Centered text */
+.centered {
+  color: white;
+  gap: 40px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+}
+.centered img {
+  height: 100px;
+}
+.arrow {
+  color: white;
+
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  height: 100px;
+  margin-bottom: 0;
+}
+.one-transform {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+.one-transform .transform {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 1000;
+  padding: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.one-transform p {
+  text-align: center;
+}
+
+.stand-out {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+.stand-out .standout {
+  text-align: center;
+
+  font-size: 20px;
+  font-weight: 1000;
+  padding: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.stand-out p {
+  text-align: center;
+}
+
+.graphic-design {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+.graphic-design .graphicdesign {
+  text-align: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 1000;
+  padding: 20px;
+  font-family: "Times New Roman", Times, serif;
+  position: absolute;
+  top: 380%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.graphicdesign-text {
+  text-align: center;
+  color: hsl(167, 40%, 24%);
+  position: absolute;
+  top: 400%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.photography {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+.photography .foto {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 1000;
+  padding: 20px;
+  font-family: "Times New Roman", Times, serif;
+  position: absolute;
+  top: 500%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.foto-text {
+  text-align: center;
+  color: hsl(198, 62%, 26%);
+  position: absolute;
+  top: 520%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+main nav > button {
+  border: none;
+  font-size: 18px;
+  display: block;
+  margin: auto;
+  padding: 20px;
+  font-weight: 800;
+  text-decoration: underline yellow;
+  font-family: "Times New Roman", Times, serif;
+}
+.testimonials {
+  display: flex;
+  flex: 1;
+  flex-basis: 100%;
+  flex-direction: column;
+  margin: 0;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+h1 {
+  text-align: center;
+  padding: 20px;
+  color: rgb(136, 127, 127);
+}
+.testimonials img {
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-left: 35%;
+  border-radius: 50%;
+  height: 50px;
+}
+.testimonials p {
+  color: black;
+  text-align: center;
+  padding: 0 20px;
+  font-size: 15px;
+  font-weight: 300px;
+}
+h2 {
+  text-align: center;
+  justify-content: center;
+  font-size: 20px;
+  padding: 20px 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+.samples1 {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.samples2 {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+h3 {
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  color: rgb(19, 51, 25);
+  padding: 20px;
+  background-color: rgb(167, 238, 238);
+  display: block;
+}
+.bottom-nav {
+  background-color: rgb(167, 238, 238);
+  margin: 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: rgb(167, 238, 238);
+}
+
+/* desktop*/
+
+@media screen and (min-width: 500px) {
+  .card-container {
+    display: block;
+    gap: 16px;
+  }
+  .one-transform {
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 1;
+    align-items: center;
+    gap: 16px;
+  }
+  .transform {
+    width: 100%;
+    flex: 1;
+  }
+  .stand-out {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+  }
+  .standout {
+    width: 100%;
+  }
+  .graphic-design {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+  }
+  .graphicdesign {
+    width: 100%;
+  }
+  .photography {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+  }
+  .foto {
+    width: 100%;
+  }
+  .testimonials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+  }
+  .samples {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+  }
+
+  .lower header {
+    display: block;
+    gap: 20px;
+    align-items: center;
+  }
+}
